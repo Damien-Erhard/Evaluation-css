@@ -12,8 +12,10 @@
 
     }
     header{
+        display: block;
         height: min-content;
-        background-repeat: no-repeat;
+        background-image: none;
+        text-align: center;
     }
 
 }
