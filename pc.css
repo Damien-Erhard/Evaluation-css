@@ -1,0 +1,136 @@
+header {
+    background-image: url(img/7b93e989691087788ec443c6c72a5003.jpg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr min-content;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.untext,
+.unbouton {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.unp {
+    color: rgba(0, 0, 0, 0.382);
+}
+
+.untext {
+    grid-column: 1;
+    grid-row: 2;
+    flex-direction: column;
+
+}
+
+.unbouton {
+    grid-column: 3;
+    width: 90px;
+    height: 50px;
+
+
+}
+
+.deux {
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+
+ul,
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.deux {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.butli {
+    width: 180px;
+    height: 60px;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.316);
+    font-size: larger;
+}
+
+.Hard,
+.What,
+.Angels,
+.Investiment,
+.Secret,
+.Money,
+.Real {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Hard {
+    background-color: #1abc9c;
+}
+
+.What {
+    background-color: #3498db;
+
+}
+
+.Angels {
+    background-color: #9b59b6;
+
+}
+
+.Secret {
+    background-color: #e74c3c;
+    grid-row: 2;
+    grid-column: 1/span 1;
+}
+
+.Investiment {
+    background-color: #13f8f4;
+    grid-column: 2/span 3;
+
+
+}
+
+.Money {
+    background-color: #1abc9c;
+    grid-column: 1/span 2;
+
+}
+
+.Real {
+    background-color: grey;
+
+}
+
+.box {
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footerbutton {
+    width: 90px;
+    height: 60px;
+}
